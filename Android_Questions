@@ -1,0 +1,14 @@
+1. Explain the lifecycle of an Android activity.
+
+    Answer: The Android activity lifecycle includes several stages: onCreate(), onStart(), onResume(), onPause(), onStop(), onRestart(), and onDestroy().
+    These methods handle transitions between activity states.
+
+2. What is the difference between an implicit and explicit intent?
+
+      Answer: Explicit intents specify the exact activity to start by class name, whereas implicit intents declare a general action to perform, 
+      allowing the system to find the appropriate component.
+
+3. What is the purpose of the ViewModel class in Android Architecture Components?
+
+   Answer: ViewModel is designed to store and manage UI-related data in a lifecycle-conscious way.
+   It allows data to survive configuration changes such as screen rotations, helping to avoid common issues like memory leaks and crashes.
