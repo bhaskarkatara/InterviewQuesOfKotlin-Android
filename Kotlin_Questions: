@@ -10,11 +10,57 @@
 
 3.  Explain null safety in Kotlin. How does it improve code quality?
 
-    Answer: Kotlin's type system distinguishes between nullable and non-nullable types. 
-    By default, variables cannot hold null values unless explicitly marked with a ?, reducing the risk of NullPointerExceptions (NPEs).
+     Answer: Kotlin's type system distinguishes between nullable and non-nullable types. 
+     By default, variables cannot hold null values unless explicitly marked with a ?, reducing the risk of NullPointerExceptions (NPEs).
 
 4. What are coroutines in Kotlin? How do they simplify asynchronous programming?
+ 
+    Answer: Coroutines are a concurrency design pattern that allows for writing asynchronous code in a sequential manner. 
+    They simplify code by providing easy-to-read syntax for background tasks and managing thread operations more efficiently.
 
-   Answer: Coroutines are a concurrency design pattern that allows for writing asynchronous code in a sequential manner. 
-   They simplify code by providing easy-to-read syntax for background tasks and managing thread operations more efficiently.
+5. What are data classes in Kotlin, and what are their benefits?
+
+   Answer: Data classes are used to hold data and automatically provide useful methods like 
+   equals(), hashCode(), toString(), copy(), and componentN(). They simplify the creation of classes that are meant to store data.
+
+6. Explain the use of sealed classes in Kotlin.
+
+    Answer: Sealed classes restrict the hierarchy to a specific set of subclasses. 
+    They are used to represent restricted class hierarchies and are useful in representing state machines or result types with a fixed set of types.
+
+7. What is the difference between apply and with in Kotlin?
+
+   Answer: apply executes a block of code on an object and returns the object itself. with executes a block of code on an 
+   object and returns the result of the last expression in the block.
+
+8. What is Jetpack Compose?
+
+  Answer: Jetpack Compose is a modern toolkit for building native Android UIs using a declarative approach.
+  It simplifies UI development by allowing developers to describe the UI with composable functions.
+
+9 . What is a lambda in Kotlin, and how is it used?
+
+     Answer: A lambda is an anonymous function that can be treated as a value. 
+     It is used to pass functions as arguments to higher-order functions. Example: { x: Int, y: Int -> x + y }.
+
+10. Explain the use of the lazy property delegate in Kotlin.
+
+    Answer: The lazy delegate allows for lazy initialization of properties
+    . The property is only initialized when it is accessed for the first time. Example: val value: String by lazy { computeValue() }.
+ 
+
+11 . How do you create a singleton in Kotlin?
+
+     Answer: Singletons in Kotlin can be created using the object declaration. Example:
+        object Singleton {
+         val value: String = "Hello"
+          }
+
+
+
+
+
+
+
+
 
