@@ -1,0 +1,20 @@
+1.  What is the difference between val and var in Kotlin?
+
+     Answer: val (value) is used for read-only variables (immutable), whereas var (variable) is used for mutable variables. 
+     Once a val is assigned, it cannot be changed, but a var can be reassigned.
+
+2.  What are the primary benefits of using Kotlin over Java for Android development?
+
+     Answer: Kotlin offers null safety, concise syntax, extension functions, 
+     coroutines for asynchronous programming, and better interoperability with Java.
+
+3.  Explain null safety in Kotlin. How does it improve code quality?
+
+    Answer: Kotlin's type system distinguishes between nullable and non-nullable types. 
+    By default, variables cannot hold null values unless explicitly marked with a ?, reducing the risk of NullPointerExceptions (NPEs).
+
+4. What are coroutines in Kotlin? How do they simplify asynchronous programming?
+
+   Answer: Coroutines are a concurrency design pattern that allows for writing asynchronous code in a sequential manner. 
+   They simplify code by providing easy-to-read syntax for background tasks and managing thread operations more efficiently.
+
